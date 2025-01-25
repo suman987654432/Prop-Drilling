@@ -7,8 +7,7 @@ const AuthApp = () => {
   return (
     <>
       <h1>Authenticated App</h1>
-      Welcome, {user.name}!
-      <br />
+      Welcome, {user.name}      <br />
       <button onClick={logout}>Logout</button>
     </>
   );
